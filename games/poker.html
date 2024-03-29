@@ -7,20 +7,32 @@
         body {
             margin: 0;
         }
-        .topbar {
+        #topBar {
             background-color: rgb(192, 0, 32);
             color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 1%;
+        }
+        #menuBar {
             text-align: center;
             padding: 1%;
         }
     </style>
 </head>
 <body>
-    <div class="topbar">
+    <div id="topBar">
         <h1>Poker</h1>
         <p>Play online with friends!</p>
     </div>
-    <a href = "/home.html">Home</a>
+    <div id="menuBar">
+        <button id="homeButton">
+            <p>Home</p>
+        </button>
+        <button id="startGameButton">
+            <p>Start Game</p>
+        </button>
+    </div>
+
     <p>Play poker with your friends!</p>
 </body>
 </html>
